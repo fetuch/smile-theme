@@ -1,0 +1,17 @@
+alignfull
+alignwide
+alignnone
+aligncenter
+alignright
+wp-block-button
+wp-caption
+wp-caption-text
+grid-cols-2
+gap-x-6
+gap-y-6
+col-span-full
+mb-0
+mt-0
+py-5
+p-5
+rounded-md
