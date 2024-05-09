@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="bg-white px-6 py-20 lg:px-8">
+<div class="">
 
 	<?php if (have_posts()) : ?>
 		<?php
