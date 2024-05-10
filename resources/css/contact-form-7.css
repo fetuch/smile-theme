@@ -1,16 +1,16 @@
 .wpcf7-form {
   label {
-    @apply block text-sm font-medium leading-6 text-white;
+    @apply block text-sm font-medium leading-6 mb-3;
   }
   input[type="text"], input[type="email"], input[type="tel"]  {
-    @apply block w-full border-0 py-1.5 text-primary shadow-sm ring-1 ring-inset ring-primary placeholder:text-primary focus:ring-2 focus:ring-inset focus:ring-secondary sm:text-sm sm:leading-6;
+    @apply block w-full rounded-md border-0 py-1.5 text-gray-600 shadow-sm ring-1 ring-inset ring-gray-600 focus:ring-2 focus:ring-inset focus:ring-gray-800 sm:text-sm sm:leading-6;
     &:focus {
       @apply outline-none;
     }
   }
 
   textarea {
-    @apply block w-full border-0 py-1.5 text-primary shadow-sm ring-1 ring-inset ring-primary placeholder:text-primary focus:ring-2 focus:ring-inset focus:ring-secondary sm:text-sm sm:leading-6
+    @apply block w-full rounded-md border-0 py-1.5 text-gray-600 shadow-sm ring-1 ring-inset ring-gray-600 focus:ring-2 focus:ring-inset focus:ring-gray-800 sm:text-sm sm:leading-6;
   }
 
   select {
@@ -18,7 +18,7 @@
   }
 
   .wpcf7-submit {
-    @apply bg-secondary px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary cursor-pointer
+    @apply rounded-md bg-gray-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary cursor-pointer
   }
 
   .wpcf7-form-control-wrap {
@@ -31,13 +31,13 @@
   }
 
   .wpcf7-response-output {
-    @apply block text-sm font-medium leading-6 text-white;
+    @apply block text-sm font-medium leading-6;
     &.wpcf7-validation-errors {
-        @apply block text-sm font-medium leading-6 text-white;
+        @apply block text-sm font-medium leading-6;
     }
 
     &.wpcf7-mail-sent-ok {
-        @apply block text-sm font-medium leading-6 text-white;
+        @apply block text-sm font-medium leading-6;
     }
   }
 
