@@ -180,6 +180,8 @@ function smile_post_types(): void
 	register_post_type('professor', array(
 		'show_in_rest' => true,
 		'supports' => array('title', 'editor', 'thumbnail'),
+		'rewrite' => array('slug' => 'nasz-zespol'),
+		'has_archive' => true,
 		'public' => true,
 		'labels' => array(
 			'name' => 'Lektorzy',
@@ -189,6 +191,23 @@ function smile_post_types(): void
 			'singular_name' => 'Lektor',
 		),
 		'menu_icon' => 'dashicons-welcome-learn-more'
+	));
+
+	//Event Post Type
+	register_post_type('event', array(
+		'show_in_rest' => true,
+		'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
+		'rewrite' => array('slug' => 'nasze-zajecia'),
+		'has_archive' => true,
+		'public' => true,
+		'labels' => array(
+			'name' => 'Wydarzenia',
+			'add_new_item' => 'Dodaj nowe wydarzenie',
+			'edit_item' => 'Edytuj wydarzenie',
+			'all_items' => 'Wszystkie wydarzenia',
+			'singular_name' => 'Wydarzenie',
+		),
+		'menu_icon' => 'dashicons-calendar-alt'
 	));
 }
 
