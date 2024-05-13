@@ -1,7 +1,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<header class="entry-header mb-4">
-		<?php the_title(sprintf('<h1 class="entry-title my-2 text-3xl font-bold tracking-tight text-primary sm:text-4xl"><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h1>'); ?>
+		<h1 class="entry-title my-2 text-3xl font-bold tracking-tight text-primary sm:text-4xl"><?php the_title(); ?></h1>
 	</header>
 
 	<div class="max-w-7xl mx-auto entry-content flex flex-col gap-6 lg:flex-row">
