@@ -8,8 +8,8 @@
     <div class="mx-auto my-16 px-3 grid max-w-7xl grid-cols-1 gap-x-8 gap-y-20 lg:grid-cols-4">
         <?php
         $professors = new WP_Query(array(
+            'posts_per_page'   => -1,
             'post_type' => 'professor',
-            'numberposts' => -1,
         ));
 
         while ($professors->have_posts()) {
@@ -40,6 +40,7 @@
         <?php } ?>
 
     </div>
+
 </div>
 
 <?php
