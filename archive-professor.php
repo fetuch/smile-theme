@@ -10,6 +10,7 @@
         $professors = new WP_Query(array(
             'paged' => get_query_var('paged', 1),
             'post_type' => 'professor',
+            'numberposts' => -1,
         ));
 
         while ($professors->have_posts()) {
@@ -39,12 +40,6 @@
 
         <?php } ?>
 
-    </div>
-
-    <div class="mx-auto my-16 px-3 max-w-2xl">
-        <?php echo paginate_links(array(
-            'total' => $professors->max_num_pages
-        )); ?>
     </div>
 </div>
 
