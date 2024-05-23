@@ -15,7 +15,7 @@
 		<div class=" space-y-8 sm:space-y-0 sm:grid sm:grid-cols-2 gap-10 lg:grid-cols-4">
 		<div>
 			<p class="text-sm leading-6 text-white">
-				Naszą misją jest pokazać młodym ludziom, że nauka języka może być miła i przyjemna. W naszej szkole uczeń jest najważniejszy. Budujemy relacje oparte na szacunku, zaufaniu i partnerstwie.
+				Naszą misją jest pokazać młodym ludziom, że nauka języka może być miła i&nbsp;przyjemna. W&nbsp;naszej szkole uczeń jest najważniejszy. Budujemy relacje oparte na&nbsp;szacunku, zaufaniu i&nbsp;partnerstwie.
 			</p>
 		</div>
 
