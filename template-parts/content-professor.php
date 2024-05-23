@@ -9,7 +9,9 @@
 			<?php the_content(); ?>
 		</div>
 
-		<img class="aspect-[1/1] w-52 flex-none rounded-2xl object-cover" src="<?php the_post_thumbnail_url(''); ?>" alt="">
+		<div>
+			<img class="aspect-[1/1] w-52 flex-none rounded-2xl object-cover" src="<?php the_post_thumbnail_url(''); ?>" alt="">
+		</div>
 	</div>
 
 	<div class="my-10">
